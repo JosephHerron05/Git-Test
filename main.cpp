@@ -4,12 +4,14 @@
 using namespace std;
 
 
- int sum(int n){
-    int total;
-    for( int i = 0; i < n; i++){
-      total += i;
-  }
-    return total;
+ 
+int product(int n){
+  int times;
+  for( int i = 0; i < n; i++){
+    times *= i;
+      
+    return times;
+    
 }
 int main() {
 
@@ -23,4 +25,3 @@ int main() {
   
   return 0;
 }
-
